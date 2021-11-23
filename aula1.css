@@ -1,0 +1,29 @@
+body{
+    background-color: gray;
+    border: 3px solid black;
+    max-width: 900px;
+    margin: auto
+}
+
+.title, .subtitle, .post_title{
+    color: blue;
+}
+
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+    margin:0;
+}
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.lista{
+    list-style-type: none;
+    padding: 0;
+    padding-left: 15px;
+}
+.lista li a {
+    color:red;
+}
