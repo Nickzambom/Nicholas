@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: #313f63;
+    width: 100%;
+    height: 80px;
+    border-bottom: solid white 0.1px;
+}
+.top{
+    width: 50%;
+    text-decoration: none;
+}
+img{
+    padding:auto;
+    width: 80px;
+    margin-left:20px;
+    margin-top: 15px;
+}
+.top a{ 
+    text-decoration: none;
+    color: white;;
+}
+
+.menu-h{
+    text-align: right;
+    margin-top: 40px;
+    padding-top: 0;
+    padding-right: 40px;
+}
+.menu-h a{
+    text-align: right;
+    font-size: 20px;
+    padding-inline: 20px;
+    text-shadow: 1px 1px 2px black, 0 0 25px #191f31, 0 0 5px #191f31;
+}
+
+/* BANNER E INICIO */
+section.banner{
+    background-image: url("viagem1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    flex-wrap: wrap;
+    width:100%;
+    background-color: rgb(230 233 235 / 79%);
+    padding: 20%;
+    padding-left: 100px;
+    text-align: justify left;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #191f31, 0 0 5px #cee1d63d;
+}
+.frase p{
+    font-size: 20px;
+}
+.frase h1{
+    padding-right: 25%;
+    font-size: 45px;
+}
+.frase h2{
+    font-size: 20px;
+}
+section.diferenciais{
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 70px 0 0;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.topx{
+    text-align: left;
+    width: 100%;
+    margin-left: 30px;
+    font-size: 15px;
+    padding-bottom: 6px;
+}
+.top1{
+    padding-top: 60px;
+    text-align: left;
+    width: 100%;
+    margin-left: 30px;
+    font-size: 15px;
+    padding-bottom: 6px;
+}
+.column{
+    flex: 0 0 300px;
+    padding: 0;
+    padding-top: 10px;
+    padding-inline: 5px;
+    width: 100%;
+}
+.column img{
+    height: 150px;
+    width: 260px;
+}
+.column1{
+    flex: 0 0 300px;
+    padding: 0;
+    padding-inline: 5px;
+    padding-top: 10px;
+    width: 100%;
+}
+.column1 img{
+    height: 150px;
+    width: 260px;
+}
+.column h3{
+    text-align: left;
+    padding-left: 9% ;
+    padding-top: 10px;
+}
+.column p {
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 9% ;
+    font-size: 13px;
+}
+.column1 h3{
+    text-align: left;
+    padding-left: 9% ;
+    padding-top: 10px;
+}
+.column1 p {
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 9% ;
+    font-size: 13px;
+}
+.banner-email {
+    border: solid black 0.1px;
+    margin-left: 100px;
+    margin-right: 90px;
+    margin-top: 30px;
+    padding-left: 1%;
+    padding-right: 5%;
+    padding-top: 0;
+    height: 150px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.banner-email img{
+    height: 120px;
+    width: 95px;
+    float: left;
+    margin-top: 10px;
+}
+
+.lista h2{
+    font-size: 23px;
+    padding-top: 25px;
+    padding-left: 30px;
+    display: flex;
+}
+.lista p{
+    font-size: 16px;
+    display: flex;
+    padding-top: 8px;
+    padding-left: 30px;
+}
+
+.butt{
+    display: flex;
+    margin-top: 20px;
+}
+
+#email{
+    margin-left: 30px;  
+    width: 100%;
+    color:black;
+    border: 0.1px solid black;
+    height: 22px;
+    font-size: 17px;
+}
+#sign{
+    margin-left: 40px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    color: black;
+    width: 80px;
+    height: 20px;
+    background-color: white;
+    font-size: 17px;
+    font-style: impact;
+    border-radius: 10px;
+    border:solid 0.px black;
+}
+.bottom-0{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #313f63;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.end img{
+height: 30px;
+width: 30px;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px){
+    header, .menu-h, a{
+        text-align: center;
+    } 
+    .diferenciais {
+        text-align: center;
+    }
+    .top,.info{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 1024px){
+    
+    .top,.info{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+/*
+.box{
+    background-color: aqua;
+    height: 500px;
+    width: 500px;
+}
+
+@media  screen and (max-width: 760px) {
+    .box{
+        width: 100%;
+    }
+}
+*/
